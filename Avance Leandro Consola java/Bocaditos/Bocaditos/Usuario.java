@@ -18,13 +18,6 @@ public class Usuario {
 int seleccion;
 int eliminar;
 
-    public static void main(String[] args) {
-      Usuario usuario = new Usuario();
-      usuario.Registrar();
-      usuario.Mostrar();
-      usuario.Modificar();
-      usuario.Mostrar();
-    }
     public void Registrar(){
         System.out.println("Registro:");
 
@@ -122,11 +115,11 @@ public void Eliminar(){
 System.out.println("\nIngrese el ID del usuario que desea eliminar: ");
 eliminar = read.nextInt();
 if(usuId == 1){
- int usuDocumento= 0;
-    String usuCorreo = null, usuContraseña= null, usuApellido= null, usuNombre= null, usuDireccion= null;
-    long usuTelefono= 0;
-    String usuEstado = null;
-    int usuId = 0;
+ usuDocumento= 0;
+  usuCorreo = null; usuContraseña= null; usuApellido= null; usuNombre= null; usuDireccion= null;
+    usuTelefono= 0;
+    usuEstado = null;
+    usuId = 0;
     System.out.println("Usuario eliminado satisfactoriamente.");
 }
 else{
