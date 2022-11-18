@@ -6,16 +6,6 @@ public class Roles {
     int cantidad, eliminar, rolEliminar, seleccion;
     Scanner read = new Scanner(System.in);
     
-    public static void main(String[] args) {
-      
-        Roles roles = new Roles();
-        
-        roles.Ingresar();
-        roles.Mostrar();
-        roles.Eliminar();
-        roles.Mostrar();
-
-    }
     public  void Ingresar(){
 
         System.out.println("¿Cuantos roles desea ingresar?");
